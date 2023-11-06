@@ -1,0 +1,107 @@
+/* Add your CSS styles here */
+@font-face {
+    font-family: motly_soft;
+    src: url("Fonts/MotleyForcesRegular-w1rZ3.ttf");
+}
+
+@font-face {
+    font-family: memory-blocky;
+    src: url("Fonts/ChildrenMemoriesBlocky-1G19g.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: motly_soft;
+    background-color: #afadad;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    height: 20%;
+    text-align: left;
+    padding: 2em;
+}
+
+/*Everything to do with the table--------------------------------*/
+#tbl_container {
+    width: 80%;
+}
+
+#todo_tbl {
+    margin-left: 3%;
+    max-width: 80%;
+    border-radius: 5px;
+    border: 2px solid rgb(173, 173, 173);
+    padding-right: 5px;
+}
+
+.tbl_rows {
+    font-family: memory-blocky;
+    width: 100px;
+}
+
+.tbl_check {
+    width: 50px;
+    height: 30px;
+}
+
+td {
+    max-width: 100%;
+}
+/*--------------------------------------------------------*/
+#input_box {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px rgb(173, 173, 173) solid;
+    margin-top: 10px;
+    width: 80%;
+    height: 35px;
+}
+
+#add_btn {
+    padding: 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+}
+
+#add_btn:hover {
+    background-color: #999999;
+}
+
+#clear_btn {
+    padding: 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+}
+
+#clear_btn:hover {
+    background-color: #999999;
+}
+
+/* Modal Styles/Message Box styles -------------------------------- */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+    width: 0;
+    transition: width 0.5s; /* Add transition for smooth effect */
+}
+
+.expand{
+    width: 100%;
+    display: block;
+}
+
+
